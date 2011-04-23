@@ -1,0 +1,82 @@
+<?xml version= '1.0'?>
+<!DOCTYPE ADDRESSBOOK [
+<!ELEMENT ADDRESSBOOK (PERSON)*>
+<!ELEMENT PERSON (LASTNAME, FIRSTNAME, COMPANY, EMAIL)>
+<!ELEMENT LASTNAME (#PCDATA)>
+<!ELEMENT FIRSTNAME (#PCDATA)>
+<!ELEMENT COMPANY (#PCDATA)>
+<!ELEMENT EMAIL (#PCDATA)>
+]>
+<ADDRESSBOOK>
+
+  <PERSON>
+    <LASTNAME>Idris</LASTNAME>
+    <FIRSTNAME>Nazmul Sadiq</FIRSTNAME>
+    <COMPANY>The Bean Factory, LLC.</COMPANY>
+    <EMAIL>xml@beanfactory.com</EMAIL>
+  </PERSON>
+
+  <PERSON>
+    <LASTNAME>Miyamato</LASTNAME>
+    <FIRSTNAME>Musashi</FIRSTNAME>
+    <COMPANY>Bushido, Inc.</COMPANY>
+    <EMAIL>katana@bushido.com</EMAIL>
+  </PERSON>
+
+  <PERSON>
+    <LASTNAME>Einstein</LASTNAME>
+    <FIRSTNAME>Albert</FIRSTNAME>
+    <COMPANY>Hasta Proton, Inc.</COMPANY>
+    <EMAIL>hasta@proton.com</EMAIL>
+  </PERSON>
+
+  <PERSON>
+    <LASTNAME>Hampton</LASTNAME>
+    <FIRSTNAME>Edwardlina</FIRSTNAME>
+    <COMPANY>AMAC, Inc.</COMPANY>
+    <EMAIL>energy@hsingi.com</EMAIL>
+  </PERSON>
+
+  <PERSON>
+    <LASTNAME>Okpobia</LASTNAME>
+    <FIRSTNAME>Avwerosuo</FIRSTNAME>
+    <COMPANY>Avweresuo Plc</COMPANY>
+    <EMAIL>weresuo@yahoo.com</EMAIL>
+  </PERSON>
+
+  <PERSON>
+    <LASTNAME>Udoisang</LASTNAME>
+    <FIRSTNAME>Blessing</FIRSTNAME>
+    <COMPANY>eddysoft Inc</COMPANY>
+    <EMAIL>pbs@yahoo.co.uk</EMAIL>
+  </PERSON>
+
+  <PERSON>
+    <LASTNAME>Altricham</LASTNAME>
+    <FIRSTNAME>Havena</FIRSTNAME>
+    <COMPANY>Haverst Software Corporation</COMPANY>
+    <EMAIL>havena@hsc.com</EMAIL>
+  </PERSON>
+
+  <PERSON>
+    <LASTNAME>Popoola</LASTNAME>
+    <FIRSTNAME>Kenny</FIRSTNAME>
+    <COMPANY>Kenny-Pee</COMPANY>
+    <EMAIL>kenny@cs.man.ac.uk</EMAIL>
+  </PERSON>
+
+  <PERSON>
+    <LASTNAME>Lartey</LASTNAME>
+    <FIRSTNAME>Deborah</FIRSTNAME>
+    <COMPANY>CocoButter Plc</COMPANY>
+    <EMAIL>deborah.lartey@postgrad.mbs.ac.uk</EMAIL>
+  </PERSON>
+
+  <PERSON>
+    <LASTNAME>Liberty</LASTNAME>
+    <FIRSTNAME>Lorson</FIRSTNAME>
+    <COMPANY>Hello Plc</COMPANY>
+    <EMAIL>Hi there</EMAIL>
+  </PERSON>
+
+</ADDRESSBOOK>
