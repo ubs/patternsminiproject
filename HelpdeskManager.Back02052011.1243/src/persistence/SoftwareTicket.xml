@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : SoftwareTicket.xml
+    Created on : April 30, 2011, 3:01 AM
+    Author     : popoola
+    Description:
+        Purpose of the document follows.
+-->
+
+<softwareTicket>
+    <softwareTicketItem>
+        <ticketID>yr666</ticketID>
+        <problemDescription>fghjhjhghjhjhghg</problemDescription>
+        <customerName>ndjjjjejeje</customerName>
+        <customerAddress>hdhdhdhdh</customerAddress>
+        <dateCreated>29/10/10</dateCreated>
+        <contractID>ggdgdgdgdg</contractID>
+        <resolution>gsgsgsgssggsg</resolution>
+        <resolutionDate>3/04/11</resolutionDate>
+        <isOSRepair>true</isHardwareRepair>
+        <isApplicationRepair>false</isHardwareUpgrade>
+    </softwareTicketItem>
+    <softwareTicketItem>
+       <ticketID>3456</ticketID>
+        <problemDescription>os hang</problemDescription>
+        <customerName>kenny</customerName>
+        <customerAddress>ellanby</customerAddress>
+        <dateCreated>29/10/10</dateCreated>
+        <contractID>1w2w3e45</contractID>
+        <resolution>gsgsgsgssggsg</resolution>
+        <resolutionDate>3/04/11</resolutionDate>
+        <isOSRepair>true</isHardwareRepair>
+        <isApplicationRepair>false</isHardwareUpgrade>
+    </softwareTicketItem>
+
+</softwareTicket>
