@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE articlemodel [
+<!ELEMENT articlemodel (article)*>
+<!ELEMENT article (articleID, articleTitle, articleCatID, issue, solution, entryDate, relatedArticles)>
+<!ELEMENT articleID (#PCDATA)>
+<!ELEMENT articleTitle (#PCDATA)>
+<!ELEMENT articleCatID (#PCDATA)>
+<!ELEMENT issue (#PCDATA)>
+<!ELEMENT solution (#PCDATA)>
+<!ELEMENT entryDate (#PCDATA)>
+<!ELEMENT relatedArticles (#PCDATA)>
+]>
+<articlemodel>
+
+  <article>
+    <articleID>1</articleID>
+    <articleTitle>Killer Technical Support</articleTitle>
+    <articleCatID>1</articleCatID>
+    <issue>When is a technical support said to be a killer brand?</issue>
+    <solution>Ask us here at the Knowledge Base Center</solution>
+    <entryDate>12/04/2011</entryDate>
+    <relatedArticles></relatedArticles>
+  </article>
+
+  <article>
+    <articleID>2</articleID>
+    <articleTitle>Test Article This Time</articleTitle>
+    <articleCatID>2</articleCatID>
+    <issue>Testing the Microphone</issue>
+    <solution>Testing Testing One Two One Three if you see this Microphone is working</solution>
+    <entryDate>20/04/2011</entryDate>
+    <relatedArticles></relatedArticles>
+  </article>
+
+  <article>
+    <articleID>3</articleID>
+    <articleTitle>How to Switch From iPhone to Android</articleTitle>
+    <articleCatID>2</articleCatID>
+    <issue>How to Switch From iPhone to Android</issue>
+    <solution>
+        So you're making the big move. Say goodbye to your iPhone but not all of your data,
+        contacts, and music. Learn how here, as well as get introduced to Android features
+        you may not be familiar with.
+    </solution>
+    <entryDate>20/05/2011</entryDate>
+    <relatedArticles></relatedArticles>
+  </article>
+  
+</articlemodel>
