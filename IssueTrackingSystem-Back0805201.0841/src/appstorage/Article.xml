@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE articlemodel [
+<!ELEMENT articlemodel (article)*>
+<!ELEMENT article (articleID, articleTitle, articleCatID, issue, solution, entryDate, relatedArticles)>
+<!ELEMENT articleID (#PCDATA)>
+<!ELEMENT articleTitle (#PCDATA)>
+<!ELEMENT articleCatID (#PCDATA)>
+<!ELEMENT issue (#PCDATA)>
+<!ELEMENT solution (#PCDATA)>
+<!ELEMENT entryDate (#PCDATA)>
+<!ELEMENT relatedArticles (#PCDATA)>
+]>
+<articlemodel>
+
+  <article>
+    <articleID>1</articleID>
+    <articleTitle>Killer Technical Support</articleTitle>
+    <articleCatID>1</articleCatID>
+    <issue>When is a technical support said to be a killer brand?</issue>
+    <solution>Ask us here at the Knowledge Base Center</solution>
+    <entryDate>12/04/2011</entryDate>
+    <relatedArticles></relatedArticles>
+  </article>
+
+  <article>
+    <articleID>2</articleID>
+    <articleTitle>Test Article This Time</articleTitle>
+    <articleCatID>2</articleCatID>
+    <issue>Testing the Microphone</issue>
+    <solution>Testing Testing One Two One Three if you see this Microphone is working</solution>
+    <entryDate>20/04/2011</entryDate>
+    <relatedArticles></relatedArticles>
+  </article>
+
+  <article>
+    <articleID>3</articleID>
+    <articleTitle>How to Switch From iPhone to Android</articleTitle>
+    <articleCatID>2</articleCatID>
+    <issue>How to Switch From iPhone to Android</issue>
+    <solution>So you're making the big move. Say goodbye to your iPhone but not all of your data, contacts, and music.
+    Learn how here, as well as get introduced to Android features you may not be familiar with.
+    </solution>
+    <entryDate>20/05/2011</entryDate>
+    <relatedArticles></relatedArticles>
+  </article>
+
+  <article>
+    <articleID>4</articleID>
+    <articleTitle>How to install Open-Realty</articleTitle>
+    <articleCatID>5</articleCatID>
+    <issue>How to install Open-Realty</issue>
+    <solution><![CDATA[Open-Realty is an open source web based real estate listing management application. It is intended to be both easy to setup and use. Written in PHP, Open-Realty is designed to be a fast and flexible tool for your real estate website. With a large open-source community working with this application, and solid management from Transparent Technologies, Inc. Open-Realty is the top choice for use on your website.
+Open-Realty has been the first choice in open source real estate web site solutions since 2003. Open-Realty provides easy installation, highly customizable templates, virtual tour support, advanced search capabilities, and many other features. Combine this with commercial add-ons such as our IDX data importer, RETS data importer, and advanced Google map integration and you have all tools needed to have a top real estate website in your market.
+
+Install Options:
+cPanel Fantastico = Yes
+LPCP Softaculous = Yes
+Download and Manual Install = Yes]]>
+    </solution>
+    <entryDate>20/05/2011</entryDate>
+    <relatedArticles></relatedArticles>
+  </article>
+
+  <article>
+    <articleID>5</articleID>
+    <articleTitle>Integration of bbPress with WordPress</articleTitle>
+    <articleCatID>6</articleCatID>
+    <issue>How to Integrate bbPress with WordPress</issue>
+    <solution><![CDATA[bbPress integration should work with most recent version of WordPress in the 2.9.x series. You should upgrade your blog before trying to get WordPress and bbPress talking to each other.
+
+If you absolutely must integrate with a version of WordPress prior to version 2.5, then read this topic in the forums for details on how to do it.
+
+Database
+bbPress can share user data with an existing WordPress installation. All you need to do is specify the location of that database on installation or afterwards in the “WordPress Integration” section of the “Settings” area in your bbPress admin.
+
+Cookies
+Integrating cookies allows your users to log in to either your WordPress blog or your bbPress forums and be effectively logged in to both. This feature requires your WordPress and bbPress installations to exist in the same domain name, or at least in sub-domains of the same domain name.
+
+See the “WordPress Integration” section of the “Settings” area in your bbPress admin for the settings you need to add to your WordPress config file after you have added the WordPress information in the “Cookies” form there.
+
+Registration
+When a user registers on your bbPress forum, your WordPress blog doesn’t know about it (and vice versa). The user will be created, but WordPress won’t know what user role to apply.
+
+In the “WordPress Integration” section of the “Settings” area in your bbPress admin you will find a “User Role Map” where you can set which roles will be applied to users who register on your forums. Users who register on your WordPress blog will have the appropriate role applied to their account when they first login to bbPress.
+
+If you don’t setup a role map, then this will not work. When you do setup a role map (or change it) any users who are missing either role will be updated, but existing roles will not be affected.]]>
+    </solution>
+    <entryDate>20/05/2011</entryDate>
+    <relatedArticles></relatedArticles>
+  </article>
+
+  <article>
+    <articleID>666</articleID>
+    <articleTitle>What is ticket system?</articleTitle>
+    <articleCatID>666</articleCatID>
+    <issue>What is ticket system?</issue>
+    <solution>
+<![CDATA[What currently happens if a customer issue or question is reported but you can't address it immediately?
+How do customer issues or questions even get communicated, probably email or contact form?
+What quality assurance do you have in place to make sure that a customer question or issue has actually been addressed properly?
+Where is all your customer-to-support communications currently stored, in your exchange server or in Gmail?
+
+Here are some scenarios where your current situation would fail badly:
+
+* One person starts working on the customer's issue, but then falls ill
+
+* You find that the fix for the issue doesn't actually solve the problem
+
+* You find that the fix for the issue conflicts with other things
+
+* You want to report on what's happened in the customer-to-support communication in the last 3 months (e.g. for performance reviews)
+
+Our ticket system known as "Issue Tracking System" solves all these issues. It provides an easily managed queue of all customer enquiries, organizes them by status, owner, originator, provides a remarkable facility to search past enquiries and run performance and backlog reports.
+It removes the "mess" from your email, email communications basically become obsolete as all emails converted to tickets and logged into the operator panel for your operators to respond. No more confusion, you know who the issue is assigned to, how long it took to respond to customer, what the response was.
+]]>
+    </solution>
+    <entryDate>20/05/2011</entryDate>
+    <relatedArticles></relatedArticles>
+  </article>
+  
+</articlemodel>

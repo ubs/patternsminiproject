@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE appconfigmodel [
+<!ELEMENT appconfigmodel (appconfig)*>
+<!ELEMENT appconfig (configkey, configvalue)>
+<!ELEMENT configkey (#PCDATA)>
+<!ELEMENT configvalue (#PCDATA)>
+]>
+<appconfigmodel>
+
+  <appconfig>
+    <configkey>test</configkey>
+    <configvalue>testvalue</configvalue>
+  </appconfig>
+
+  <appconfig>
+    <configkey>test2</configkey>
+    <configvalue>test3</configvalue>
+  </appconfig>
+
+  <appconfig>
+    <configkey>CategoryXML</configkey>
+    <configvalue>Category.xml</configvalue>
+  </appconfig>
+
+  <appconfig>
+    <configkey>ArticleXML</configkey>
+    <configvalue>Article.xml</configvalue>
+  </appconfig>
+
+</appconfigmodel>

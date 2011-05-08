@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : HardwareTicket.xml
+    Created on : April 30, 2011, 3:00 AM
+    Author     : popoola
+    Description:
+        Purpose of the document follows.
+-->
+
+<hardwareTicket>
+    <hardwareTicketItem>
+        <ticketID>yr666</ticketID>
+        <problemDescription>fghjhjhghjhjhghg</problemDescription>
+        <customerName>ndjjjjejeje</customerName>
+        <customerAddress>hdhdhdhdh</customerAddress>
+        <dateCreated>29/10/10</dateCreated>
+        <contractID>ggdgdgdgdg</contractID>
+        <resolution>gsgsgsgssggsg</resolution>
+        <resolutionDate>3/04/11</resolutionDate>
+        <isHardwareRepair>true</isHardwareRepair>
+        <isHardwareUpgrade>false</isHardwareUpgrade>
+        <serialNumber>gdhdhhdhdhdhd</serialNumber>
+    </hardwareTicketItem>
+
+    <hardwareTicketItem>
+        <ticketID>sftyu</ticketID>
+        <problemDescription>failed processor</problemDescription>
+        <customerName>blessings</customerName>
+        <customerAddress>opal gardens</customerAddress>
+        <dateCreated>29/1/11</dateCreated>
+        <contractID>12345</contractID>
+        <resolution>replacement</resolution>
+        <resolutionDate>3/04/11</resolutionDate>
+        <isHardwareRepair>false</isHardwareRepair>
+        <isHardwareUpgrade>true</isHardwareUpgrade>
+        <serialNumber>1w2w3e4r</serialNumber>
+    </hardwareTicketItem>
+
+</hardwareTicket>

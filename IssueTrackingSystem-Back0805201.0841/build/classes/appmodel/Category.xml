@@ -1,0 +1,61 @@
+<?xml version= '1.0'?>
+<!DOCTYPE categorymodel [
+<!ELEMENT categorymodel (category)*>
+<!ELEMENT category (catID, catName, catDescription, catParentID)>
+<!ELEMENT catID (#PCDATA)>
+<!ELEMENT catName (#PCDATA)>
+<!ELEMENT catDescription (#PCDATA)>
+<!ELEMENT catParentID (#PCDATA)>
+]>
+<categorymodel>
+
+  <category>
+    <catID>1</catID>
+    <catName>Technical Support</catName>
+    <catDescription>Technical Support Services</catDescription>
+    <catParentID></catParentID>
+  </category>
+
+  <category>
+    <catID>2</catID>
+    <catName>Finance</catName>
+    <catDescription>Financial Issues</catDescription>
+    <catParentID></catParentID>
+  </category>
+
+  <category>
+    <catID>3</catID>
+    <catName>Billing</catName>
+    <catDescription>Billing</catDescription>
+    <catParentID>2</catParentID>
+  </category>
+
+  <category>
+    <catID>4</catID>
+    <catName>Refunds</catName>
+    <catDescription>Refunds</catDescription>
+    <catParentID>2</catParentID>
+  </category>
+
+  <category>
+    <catID>5</catID>
+    <catName>Installations</catName>
+    <catDescription>Technical Issues in Installation of Applications</catDescription>
+    <catParentID>1</catParentID>
+  </category>
+
+  <category>
+    <catID>6</catID>
+    <catName>Integration</catName>
+    <catDescription>Integration of Applications</catDescription>
+    <catParentID>1</catParentID>
+  </category>
+
+  <category>
+    <catID>666</catID>
+    <catName>FAQs</catName>
+    <catDescription>Frequently asked Questions</catDescription>
+    <catParentID></catParentID>
+  </category>
+
+</categorymodel>
